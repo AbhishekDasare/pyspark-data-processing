@@ -1,5 +1,8 @@
 # Data Engineering Architecture
 
+## Current Project Flow
+
+```text
 sales_data.csv
       |
       v
@@ -16,9 +19,11 @@ Processed Dataset
       |
       v
 Analytics / Reporting Layer
+```
 
-Future Cloud Architecture
+## Future Cloud Architecture
 
+```text
 Source Data
       |
       v
@@ -32,3 +37,14 @@ Amazon Redshift
       |
       v
 Power BI / Tableau
+```
+
+## Technologies
+
+- Python
+- PySpark
+- AWS S3
+- AWS Glue
+- Amazon Redshift
+- SQL
+- ETL Pipelines
